@@ -1,0 +1,12 @@
+# Create a function that takes a list of strings and return a list, sorted from shortest to longest.
+# Examples
+# sort_by_length(["Google", "Apple", "Microsoft"])
+# ["Apple", "Google", "Microsoft"]
+
+
+
+def sort_by_length(lst):
+    """this function is usefull to takes a list of strings and return a list, sorted from shortest to longest."""
+    return sorted(lst, key = len)
+
+print(sort_by_length(['Google', 'Apple', 'Microsoft']))
